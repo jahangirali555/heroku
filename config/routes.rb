@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
  
   match "/index" => "aqua_core#index", via: :get
-  match "/events" => "aqua_core#events", via: :get
+  match "/event" => "aqua_core#event", via: :get
   match "/shop" => "aqua_core#shop", via: :get
   match "/discussion" => "aqua_core#discussion", via: :get  
   

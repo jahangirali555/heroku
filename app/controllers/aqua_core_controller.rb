@@ -8,7 +8,7 @@ class AquaCoreController < ApplicationController
   end
 
   def shop
-    @title = "shop"
+    @title = "Please come and shop"
   end
 
   def discussion

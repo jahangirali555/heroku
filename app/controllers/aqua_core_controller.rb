@@ -3,7 +3,7 @@ class AquaCoreController < ApplicationController
     @title = "IndeX"
   end
 
-  def event
+  def events
     @title = "event"
   end
 

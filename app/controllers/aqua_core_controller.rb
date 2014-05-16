@@ -4,7 +4,7 @@ class AquaCoreController < ApplicationController
   end
 
   def event
-    @title = "event"
+    @title = "New event created"
   end
 
   def shop
